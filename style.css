@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine&family=Great+Vibes&family=Heebo:wght@200;400;500;600;700&family=Hind+Siliguri&family=Josefin+Sans:ital@0;1&family=Kalam&family=Mukta&family=News+Cycle&family=Orbitron&family=PT+Sans&family=Phudu&family=Poppins:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.navbar {
+    height: 40px;
+    background-color: black;
+    color: white;
+   
+}
+
+.navbar ul {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 12px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.bg-img {
+    height: 115vh;
+    background-image: url(./img/bg-1.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.navbar-main {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: sticky;
+    top: 0px;
+    background-color: #262626;
+    padding: 20px 35px;
+  
+}
+
+.logo img {
+    height: 30px;
+}
+
+.navbar-main ul {
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-main ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+   
+    cursor: pointer;
+}
+
+.navbar-main li:hover {
+    border-bottom: 5px solid #89898A;
+    color: #89898A;
+    transition: ease-in-out .3s;
+
+}
+
+.navbar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.navbar-icon i {
+    padding: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.en-text {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.en-text p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.en-text p i {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-text {
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 270px;
+  
+}
+
+.navbar-text h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-text h5 {
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 9px;
+}
+
+.navbar-text button {
+    margin-top: 15px;
+    padding: 7px 30px;
+    font-weight: 500;
+}
+
+.bg-icon {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+.bg-icon h3 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.bg-icon h3 i {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.hero-sections {
+    height: 130vh;
+    padding-top: 30px;
+    background-color: #262626;
+}
+
+.hero-image {
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    background-image: url(./img/bg-2-img.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 180px;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text h4 {
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero-text button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.third-sections {
+    height: 100vh;
+    background-image: url(./img/bg-3-img.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.third-text {
+    color: white;
+    height: 600px;
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.third-text h2 {
+    font-size: 30px;
+}
+
+.third-text h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.third-text button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.one-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/speaker-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-2 {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.one-text {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.one-text h3 {
+    font-size: 30px;
+    width: 40%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.one-text h5 {
+    padding-top: 10px;
+}
+
+.one-text button {
+    margin-top: 35px;
+    padding: 6px 25px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.second-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-image {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.second-text {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.second-text h3 {
+    font-size: 30px;
+    width: 40%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.second-text h5 {
+    padding-top: 10px;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.second-text button {
+    margin-top: 35px;
+    padding: 6px 25px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.second-image-2 {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/speaker-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.three-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url(./img/speaker-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.three-image-2 {
+    width: 50%;
+    height: 100vh;
+    background-image: url(./img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.three-text {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.three-text h3 {
+    font-size: 35px;
+}
+
+.three-text button {
+    margin-top: 25px;
+    padding: 6px 25px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.four-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four-image {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/img-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.four-text {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.four-text h3 {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.four-text button {
+    margin-top: 25px;
+    padding: 6px 25px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.four-image-2 {
+    height: 100vh;
+    width: 50%;
+    background-image: url(./img/speaker-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contant-section {
+    padding: 20px 50px;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    height: 120px;
+}
+
+.contant-section span h2 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.contant-section span h4 {
+    font-size: 17px;
+
+    font-weight: 400;
+}
+
+.contant-section input {
+    width: 400px;
+    margin-left: 20px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+}
+
+.contant-section h3 {
+    font-size: 13px;
+    width: 22%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contant-section h3 a {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contant-section button {
+    height: 40px;
+    width: 130px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.footer-sections {
+    height: 130vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-links {
+
+    display: flex;
+}
+
+.footer-list {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    padding: 50px 50px;
+    color: white;
+}
+
+.footer-list h3 {
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer-list li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7A7A7A;
+
+}
+
+.footer-account {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 350px;
+    color: white;
+    padding-top: 30px;
+}
+
+.footer-account h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer-account h5 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+    
+}
+
+.footer-account span {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.log-btn {
+    width: 180px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.footer-account span button {
+    margin-top: 10px;
+    height: 35px;
+    width: 180px;
+    font-weight: bold;
+}
+
+.payment-sections {
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.payment-sections h3 {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.payment-sections h5 {
+    width: 20%;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.payment-images {
+    margin-top: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment-images img {
+    height: 40px;
+}
+
+.footer-icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.footer-icons span {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-icons span h4 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-icons span img {
+    height: 40px;
+}
+
+.footer-icon-1 {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.footer-icon-1 i {
+    font-size: 30px;
+    padding: 10px;
+}
